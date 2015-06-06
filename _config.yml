@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Harish Oraon
 locale: en_US
-description: Describe your website here.
+description: Software Developer(The Hindu Group Of Publications)
 logo: site-logo.png
 search: true
-url: xcia.github.io
+url: http://xcia.github.io/
 
 # Jekyll configuration
 
@@ -31,13 +31,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
+  name: Harish Oraon
+  avatar: https://avatars3.githubusercontent.com/u/4460017?v=3&amp;s=460
+  email: harryavr@gmail.xom
+  disqus-shortname: shyer
   twitter: #username
   facebook: #username
-  github: #username
+  github: xcia
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
@@ -47,7 +47,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: UA-52690302-1
     verify:
     ad-client:
     ad-slot:
