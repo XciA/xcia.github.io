@@ -51,4 +51,21 @@ $(document).ready(function() {
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
+  $('.js_nav-icon__menu').on('click',function(e){
+      e.preventDefault();
+      if($('#site-nav > ul').is(':hidden')){
+          $('#site-nav > ul').fadeIn();
+          $('.navigation-wrapper').addClass('active');
+      }
+      else{
+          $('#site-nav > ul').fadeOut();
+          $('.navigation-wrapper').removeClass('active');
+      }
+  });
+  $('body').on('click',function(){
+      if(!$('#site-nav > ul').is(':hidden')){
+          $('#site-nav > ul').fadeout();
+          $('.navigation-wrapper').removeClass('active');
+      }
+  });
 });

@@ -62,8 +62,9 @@ span + .entry-title {
 	font-weight: 400;
 	line-height: 1;
 	letter-spacing: -3px;
+        color: $nav-color;
 	a {
-		color: $black;
+		color: inherit;
 		text-decoration: underline;
 	}
 	@include media($medium) {
